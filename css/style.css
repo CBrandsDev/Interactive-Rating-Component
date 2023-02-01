@@ -7,7 +7,9 @@
 }
 body {
     font-family: 'Overpass', sans-serif;
-    background-color: hsl(216, 12%, 8%);
+    background: rgb(18,20,23);
+    background: radial-gradient(circle, rgba(18,20,23,1) 0%, rgba(34,43,56,1) 100%);
+    
     max-height: 100vh;
     
 }
@@ -20,15 +22,15 @@ main {
 }
 .container {
     background: rgb(24,29,36);
-    background: linear-gradient(0deg, rgba(24,29,36,1) 0%, rgba(51,60,71,1) 100%);
+    background: linear-gradient(0deg, rgba(24,29,36,1) 65%, rgba(34,42,51,1) 100%);
     justify-content: center;
     align-items: center;
     padding: 25px;
-    border-radius: 20px;
-    margin-top: 500px;
+    border-radius: 30px;
+    margin-top: 400px;
     height: 500px;
     width: 500px;
-    
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25), 0 18.8rem 5.2rem rgba(0, 0, 0, 0.01), 0 12.0rem 4.8rem rgba(0, 0, 0, 0.04), 0 6.8rem 4.1rem rgba(0, 0, 0, 0.15), 0 3.0rem 3.0rem rgba(0, 0, 0, 0.26), 0 .8rem 1.7rem rgba(0, 0, 0, 0.29), inset 0 .6rem .8rem rgba(255, 255, 255, 0.1), inset 0 -.4rem .5rem rgba(0, 0, 0, 0.22);
 }
 
 .card {
@@ -36,9 +38,9 @@ main {
     
 }
 .card img {
-    width: 45px;
-    background-color: #415062;
-    padding: 10px;
+    width: 50px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 14px;
     border-radius: 50px;
     margin-bottom: 30px;
 }
@@ -52,20 +54,29 @@ main {
     
 }
 .rate {
-    display: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 36px;
-    background-color: #415062;
+    margin-left: 15px;
+    background-color: hsl(213, 19%, 18%);
     border: none;
     color: hsl(217, 12%, 63%);
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50px;
     cursor: pointer;
-    row-gap: 40rem;
+    font-size: 20px;
 }
 
+.rate:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+    transition: all .3s;
+}
+.rate:focus {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
 .card a {
     display: flex;
     align-items: center;
@@ -86,6 +97,11 @@ main {
 }
 .card2 {
     opacity: 0;
+    width: 50px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 14px;
+    border-radius: 50px;
+    margin-bottom: 30px;
 }
 
 .attribution {
