@@ -33,7 +33,7 @@ main {
 
 .card {
     padding: 20px;
-    
+    display: grid;
 }
 .card img {
     width: 50px;
@@ -139,7 +139,6 @@ main {
     margin-bottom:1rem;
 }
 .appreciate{
-
     color:hsl(217, 12%, 63%);
     text-align: center;
     line-height: 1.5;
@@ -148,7 +147,7 @@ main {
     padding:0.5rem;
 }
 .hidden{
-    display:none;
+    display: none;
 }
 .attribution {
     color: white;
