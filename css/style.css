@@ -9,9 +9,7 @@ body {
     font-family: 'Overpass', sans-serif;
     background: rgb(18,20,23);
     background: radial-gradient(circle, rgba(18,20,23,1) 0%, rgba(34,43,56,1) 100%);
-    
-    max-height: 100vh;
-    
+    min-height: 100vh;
 }
 
 main {
@@ -53,11 +51,14 @@ main {
     padding-top: 20px;
     
 }
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
 .rate {
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 36px;
-    margin-left: 15px;
     background-color: hsl(213, 19%, 18%);
     border: none;
     color: hsl(217, 12%, 63%);
@@ -77,33 +78,78 @@ main {
     background-color: hsl(25, 97%, 53%);
     color: white;
 }
-.card a {
-    display: flex;
-    align-items: center;
+.submit-container {
+    display:flex;
     justify-content: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    background-color: hsl(25, 97%, 53%);
-    border-radius: 30px;
-    color: white;
-    margin-top: 50px;
-    height: 50px;
+    align-items: center;
+    margin:1rem 0;
 }
-.card a:hover {
+
+.submit {
+    width:100%;
+    height: 50px;
+    font-size: 18px;
+    padding:0.7rem 0;
+    text-transform: uppercase;
+    border:none;
+    border-radius: 2rem;
+    background-color:hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-top:30px;
+}
+.submit:hover {
     background-color: white;
     color: hsl(25, 97%, 53%);
     transition: all .3s;
+    cursor: pointer;
 }
-.card2 {
-    opacity: 0;
-    width: 50px;
-    background-color: hsl(213, 19%, 18%);
-    padding: 14px;
-    border-radius: 50px;
-    margin-bottom: 30px;
+.plsrateus{
+    text-decoration: underline;
+    text-align: center;
+}
+.thanks{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.rating-result{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:1rem 0;
+}
+
+.rating-result p{
+    background-color:hsl(213deg 19% 18%);
+    color:hsl(25, 97%, 53%);
+    border-radius: 1.5rem;
+    padding:0.5rem 1rem;
+    margin:1rem 0;
+    
+}
+
+.thanks h1{
+    color:hsl(0, 0%, 100%);
+    text-align: center;
+    margin-bottom:1rem;
+}
+.appreciate{
+
+    color:hsl(217, 12%, 63%);
+    text-align: center;
+    line-height: 1.5;
+    font-size: 0.938rem;
+    font-size: 0.85rem;
+    padding:0.5rem;
+}
+.hidden{
+    display:none;
+}
 .attribution {
     color: white;
     padding: 35px;
