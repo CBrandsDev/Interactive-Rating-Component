@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    max-height: 100vh;
+    
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container {
+    background: rgb(24,29,36);
+    background: linear-gradient(0deg, rgba(24,29,36,1) 0%, rgba(51,60,71,1) 100%);
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 500px;
+    height: 500px;
+    width: 500px;
+    
+}
+
+.card {
+    padding: 20px;
+    
+}
+.card img {
+    width: 45px;
+    background-color: #415062;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.title {
+    color: white;
+    
+}
+.description {
+    color: hsl(217, 12%, 63%);
+    padding-top: 20px;
+    
+}
+.rate {
+    display: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+    background-color: #415062;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    row-gap: 40rem;
+}
+
+.card a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    color: white;
+    margin-top: 50px;
+    height: 50px;
+}
+.card a:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    transition: all .3s;
+}
+.card2 {
+    opacity: 0;
+}
+
+.attribution {
+    color: white;
+    padding: 35px;
+}
