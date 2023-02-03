@@ -10,6 +10,7 @@ body {
     background: rgb(18,20,23);
     background: radial-gradient(circle, rgba(18,20,23,1) 0%, rgba(34,43,56,1) 100%);
     min-height: 100vh;
+    flex-direction: column;
 }
 
 main {
@@ -55,7 +56,7 @@ main {
     display: flex;
     justify-content: space-between;
 }
-.rate {
+.rates {
     align-items: center;
     justify-content: center;
     margin-top: 36px;
@@ -69,12 +70,12 @@ main {
     font-size: 20px;
 }
 
-.rate:hover {
+.rates:hover {
     background-color: hsl(217, 12%, 63%);
     color: white;
     transition: all .3s;
 }
-.rate:focus {
+.rates:focus {
     background-color: hsl(25, 97%, 53%);
     color: white;
 }
@@ -105,40 +106,48 @@ main {
     transition: all .3s;
     cursor: pointer;
 }
-.plsrateus{
-    text-decoration: underline;
-    text-align: center;
-}
 .thanks{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
+    background: rgb(24,29,36);
+    background: linear-gradient(0deg, rgba(24,29,36,1) 65%, rgba(34,42,51,1) 100%);
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25), 0 18.8rem 5.2rem rgba(0, 0, 0, 0.01), 0 12.0rem 4.8rem rgba(0, 0, 0, 0.04), 0 6.8rem 4.1rem rgba(0, 0, 0, 0.15), 0 3.0rem 3.0rem rgba(0, 0, 0, 0.26), 0 .8rem 1.7rem rgba(0, 0, 0, 0.29), inset 0 .6rem .8rem rgba(255, 255, 255, 0.1), inset 0 -.4rem .5rem rgba(0, 0, 0, 0.22);
+    border-radius: 30px;
+    padding: 80px;
+    margin-top: 400px;
+    display: grid;
+    text-align: center;
     align-items: center;
+}
+.thanks img {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-bottom: 45px;
 }
 
 .rating-result{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin:1rem 0;
+    background-color: hsl(213, 20%, 23%);
+    border-radius: 30px;
+    margin-left: 30px;
+    max-width: 250px;
+    color: hsl(25, 97%, 53%);
+    padding: 0.3rem .9rem;
+    font-size: .9rem;
+    margin-top: .5rem;
+    margin-bottom: 1.7rem;
+    letter-spacing: 1px;
 }
-
-.rating-result p{
-    background-color:hsl(213deg 19% 18%);
-    color:hsl(25, 97%, 53%);
-    border-radius: 1.5rem;
-    padding:0.5rem 1rem;
-    margin:1rem 0;
-    
-}
-
 .thanks h1{
     color:hsl(0, 0%, 100%);
     text-align: center;
+    margin-top: 16px;
     margin-bottom:1rem;
 }
 .appreciate{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 320px;
     color:hsl(217, 12%, 63%);
     text-align: center;
     line-height: 1.5;
