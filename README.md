@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/order-summary-card-1l-NIHvCfT)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/interactive-rating-component-2Yvlgbm6PV)
 - Live Site URL: [Click Here](https://cbrandsdev.github.io/Interactive-Rating-Component/)
 
 ## My process
