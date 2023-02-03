@@ -26,7 +26,7 @@ main {
     align-items: center;
     padding: 25px;
     border-radius: 30px;
-    margin-top: 300px;
+    margin-top: 280px;
     height: 500px;
     width: 500px;
     box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25), 0 18.8rem 5.2rem rgba(0, 0, 0, 0.01), 0 12.0rem 4.8rem rgba(0, 0, 0, 0.04), 0 6.8rem 4.1rem rgba(0, 0, 0, 0.15), 0 3.0rem 3.0rem rgba(0, 0, 0, 0.26), 0 .8rem 1.7rem rgba(0, 0, 0, 0.29), inset 0 .6rem .8rem rgba(255, 255, 255, 0.1), inset 0 -.4rem .5rem rgba(0, 0, 0, 0.22);
@@ -111,8 +111,8 @@ main {
     background: linear-gradient(0deg, rgba(24,29,36,1) 65%, rgba(34,42,51,1) 100%);
     box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25), 0 18.8rem 5.2rem rgba(0, 0, 0, 0.01), 0 12.0rem 4.8rem rgba(0, 0, 0, 0.04), 0 6.8rem 4.1rem rgba(0, 0, 0, 0.15), 0 3.0rem 3.0rem rgba(0, 0, 0, 0.26), 0 .8rem 1.7rem rgba(0, 0, 0, 0.29), inset 0 .6rem .8rem rgba(255, 255, 255, 0.1), inset 0 -.4rem .5rem rgba(0, 0, 0, 0.22);
     border-radius: 30px;
-    padding: 80px;
-    margin-top: 300px;
+    padding: 90px;
+    margin-top: 280px;
     display: grid;
     text-align: center;
     align-items: center;
@@ -153,7 +153,7 @@ main {
     line-height: 1.5;
     font-size: 0.938rem;
     font-size: 0.85rem;
-    padding:0.5rem;
+    padding:0.3rem;
 }
 .hidden{
     display: none;
